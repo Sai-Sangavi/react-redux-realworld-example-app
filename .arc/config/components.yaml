@@ -1,0 +1,21 @@
+version: 2
+components:
+  comp_react_redux_realworld_example_app:
+    name: React Redux Realworld Example App
+    repo_ref: conn-github-3419d4bdfb254121938e8bfa3c4bb554
+    kind: web_ui
+    directory: .
+    integrations:
+    - to: comp_source
+      interaction: sync
+      via: http
+      auth:
+        scheme: jwt
+        notes: Authorization header 'Token <jwt>' set in src/agent.js
+      status: planned
+      evidence: src/agent.js
+      label: HTTPS/JSON
+    zone: client
+    rule: Client-side UI code lives in this component and reaches server-side data
+      only through the backend API, never directly.
+    adr: ADR-0001
