@@ -19,3 +19,7 @@ components:
     rule: Client-side UI code lives in this component and reaches server-side data
       only through the backend API, never directly.
     adr: ADR-0001
+    stack:
+      choices:
+        language: JavaScript/TypeScript
+        framework: React
