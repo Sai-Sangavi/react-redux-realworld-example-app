@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "contract_version": 2,
+  "fingerprint": "c8189215d33e7e719be4f4d0a58fcf25c17046d2b31fe65d47a5f90564e81734",
+  "direction": "edit",
+  "overrides": [
+    "palette",
+    "font_pairing",
+    "type_scale",
+    "icon_set",
+    "icon_stroke",
+    "shell",
+    "page_template"
+  ],
+  "palette": "rose",
+  "custom_accent": null,
+  "font_pairing": "fraunces",
+  "type_scale": "default",
+  "icon_set": "duo",
+  "icon_size": 20,
+  "icon_stroke": 1.75,
+  "radius": "sm",
+  "elevation": "none",
+  "border": "defined",
+  "density": "spacious",
+  "motion": "subtle",
+  "shell": "sidebar",
+  "page_template": "empty",
+  "max_width_px": 1200,
+  "grid_unit_px": 8
+}
